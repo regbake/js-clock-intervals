@@ -1,14 +1,29 @@
 #clock {
 }
+/*Goal: to make the hands and stuff rotate according to the time...;
+1. use 
 
+*/
 #clock img {
+	position: absolute;
+	top: 100px;
+	left: 25%;
 }
 
-#hour {
-}
+/*#hour {
+	transform: none;
+}*/
 
-#minute {
-}
+/*
+rotate minute hand
+*/
+/*#minute {
+	transform: none;
+}*/
+
+
+/*rotate seconds hand 360/60 degrees, every second
 
 #second {
-}
+	transform: none;
+}*/
